@@ -1,2 +1,2 @@
 # Survival Analysis
-Survival modelling using Cox proportional hazards regression model
+Survival modelling using Cox proportional hazard regression model
