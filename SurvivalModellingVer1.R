@@ -30,7 +30,7 @@ install_all_packages_automatic(pec)
 install_all_packages_automatic(pROC)
 install_all_packages_automatic(survival)
 install_all_packages_automatic(survivalROC)
-install_all_packages_automatic(rpart)
+
 # Loading all survival and dependent libraries
 library(survival)
 library(survivalROC)
