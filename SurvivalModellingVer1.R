@@ -82,7 +82,7 @@ summary(Survival_model)
 # Likelihood ratio test= 25.51  on 2 df,   p=2.892e-06
 # Wald test            = 25.81  on 2 df,   p=2.489e-06
 # Score (logrank) test = 34.26  on 2 df,   p=3.636e-08
-
+# Both variables are significant
 ## Predict survival at 5 years (for the input csv file)
 survival_probability <- predictSurvProb(Survival_model, newdata=datafileObject, times = 5)
 ## Examine predicted 5 year survival for this csv file 
