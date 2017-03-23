@@ -47,11 +47,11 @@ datafileObject <- read.csv(pathcsvfile, header=T)
 var1_ph <- cox.zph(coxph(Surv(OS_Time, OS_YN) ~ Variable1, data = datafileObject))
 var1_ph_pvalue <- var1_ph$table[3] # p-value
 #            rho    chisq    p
-#Variable1  0.281  1.56    0.212   # p-value: 0.212, is not significant ==> doesn't reject the null hypothesis (Pass the test for the proportionality of hazard)
+#Variable1 (Total Resection vs. Non-total resection)  0.281  1.56    0.212   # p-value: 0.212, is not significant ==> doesn't reject the null hypothesis (Pass the test for the proportionality of hazard)
 var2_ph <- cox.zph(coxph(Surv(OS_Time, OS_YN) ~ Variable2, data = datafileObject))
 var2_ph_pvalue <- var2_ph$table[3] # p-value
 #            rho   chisq     p
-#Variable2 -0.0872 0.134   0.714   # p-value: 0.714, is not significant ==> doesn't reject the null hypothesis (Pass the test for the proportionality of hazard)
+#Variable2 (DN_MBEN pathology) -0.0872 0.134   0.714   # p-value: 0.714, is not significant ==> doesn't reject the null hypothesis (Pass the test for the proportionality of hazard)
 
 par(mfrow=c(2,2))
 
