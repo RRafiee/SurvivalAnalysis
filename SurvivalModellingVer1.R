@@ -3,7 +3,7 @@
 ##################################################################################################
 # Start
 #"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-# Survival modelling script written by Dr Reza Rafiee
+# Survival modelling analysis written by Dr Reza Rafiee
 # Research Associate, Northern Institute for Cancer Research, Newcastle University
 # This script gets a csv file including all variables for doing survival modelling analysis
 
