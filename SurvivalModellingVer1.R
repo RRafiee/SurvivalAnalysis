@@ -38,7 +38,7 @@ library(pec)
 library(pROC)
 
 
-Pathfolder <- "~/survivalmodelling/"  # initialise the path of the csv file
+Pathfolder <- "~/"  # initialise the path of the csv file
 csvfilename <- "survivaldata.csv"
 pathcsvfile <- paste(Pathfolder,csvfilename,sep = "")
 datafileObject <- read.csv(pathcsvfile, header=T)
